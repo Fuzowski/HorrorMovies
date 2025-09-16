@@ -32,7 +32,7 @@ function Register() {
     <div>
       <h1>Register</h1>
       {error && <p style={{ color: "red" }}>{error}</p>}
-      <form onSubmit={handleSubmit}> {/* fixed typo */}
+      <form onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Username"
